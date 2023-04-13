@@ -1,4 +1,3 @@
-<!-- 
 <br>
 <br>
 <div align="center">
@@ -11,22 +10,22 @@
     <p> Easy Speed Comportable </p>
     <p> 쉽고 빠르고 편하게 모두를 위한 교육 플랫폼  </p>
 </div>
--->
+
 
 <br>
-
-## 사이트 주소
-- http://myst.dothome.co.kr/esc4/index.php
 
 <br>
 
 ## 프로젝트 소개
-- 온라인 강의 사이트 유저 페이지 입니다
-- Landing Page, 게시판, 로그인, 회원가입, 수정 및 탈퇴만 구현된 사이트 입니다(About, Lecture 페이지는 추후 구현할 계획입니다).
+- 온라인 강의 사이트 유저 페이지
+- Landing Page, 게시판, 로그인, 회원가입, 회원정보 수정 및 탈퇴까지 구현된 사이트(About, Lecture 페이지는 추후 구현 예정)
+- [CLASS ESC 사이트](http://myst.dothome.co.kr/esc4/index.php) <br>
+  [CLASS ESC 소개서](https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
 
 <br>
 
 ## 제작 정보
+
 ### 1. 제작자
 - 홍효헌
 
@@ -41,7 +40,7 @@
 <br>
 
 ### 3. 구현한 페이지
-- 랜딩 페이지, 게시판,  로그인, 회원가입, 회원정보 및 수정.
+- 랜딩 페이지, 게시판,  로그인, 회원가입, 회원정보, 회원정보 수정, 회원탈퇴
 
 <br>
 
@@ -83,3 +82,4 @@
 - html, css, js, jquery, ajax, php
 - bootstrap, isotope, summernote
 - Figma, Visual Studio Code, github
+
