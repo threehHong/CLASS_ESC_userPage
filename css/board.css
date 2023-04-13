@@ -1,0 +1,613 @@
+/* BOARD  */
+main {
+    margin-top: 100px;
+}
+
+/* TABLE SEARCH */
+.table_search {
+    /* margin: -40px 50px 0px; */
+}
+
+.table_search form {
+    position: relative;
+}
+
+/* 여기 사이에서 문제 span 태그 문제인듯 */
+.table_search form span i {
+    position: absolute;
+    transform: translate(-25px, 50%);
+    /* color: #A9A9A9; */
+}
+.write_category_title i {
+    transform: translate(-19px, 7px);
+
+}
+
+.table_search_text {
+    position: relative;
+    display: inline-block;
+    width: 242px;
+}
+
+
+.table_search select,
+.table_search_text,
+.table_search input {
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+    color: #333333;
+    height: 30px;
+    outline: 0px;
+}
+
+.table_search select {
+    width: 150px;
+    appearance: none;
+    padding-left: 10px;
+    background: rgba(255, 255, 255, 0);
+    z-index: 1;
+    position: relative;
+}
+
+.table_search input {
+    width: 250px;
+}
+
+.table_search_button {
+    border: none;
+    background: #ffffff;
+    transform: translateX(-40px);
+}
+
+
+/* BOARD EDIT BTNS */
+.board_edit_btns ul {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.board_edit_btns ul li {
+    margin: 20px 10px 20px;
+}
+
+
+.board_edit_btns ul li a {
+    color: #333333;
+}
+
+.board_edit_btns ul li i {
+    margin-right: 5px;
+}
+
+/* table_wrapper .table */
+.table_wrapper {
+    width: 100%;
+    border-left: 0.5px solid #A9A9A9;
+    border-right: 0.5px solid #A9A9A9;
+    border-radius: 5px;
+}
+
+.table_wrapper table {
+    margin-bottom: 0px;
+}
+
+/* .table_wrapper table th:not(th:nth-child(1)), */
+.table_wrapper table th,
+.table_wrapper table td {
+    text-align: center;
+}
+
+.table_wrapper table .col1 {
+    width: 5%;
+}
+
+.table_wrapper table .col2 {
+    width: 10%;
+}
+
+.table_wrapper table .col3 {
+    width: 25%;
+}
+
+.table_wrapper table .col4 {
+    width: 6%;
+}
+
+.table_wrapper table .col5 {
+    width: 10%;
+}
+
+.table_wrapper table .col6 {
+    width: 5%;
+}
+
+.table_wrapper table .col7 {
+    width: 9%;
+}
+
+.table_wrapper table input {
+    margin: 0px 15px 0px;
+}
+
+.table_wrapper .table thead tr {
+    background: #2C353C;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.table_wrapper .table tbody tr {
+    border-bottom: 1px solid #A9A9A9;
+}
+
+.table_wrapper .table tr {
+    line-height: 35px;
+    white-space: nowrap;
+}
+
+/* TABLE  */
+.table_wrapper table .category {
+    border-radius: 5px;
+    background: #2C353C;
+    color: #ffffff;
+    outline: 0;
+    border: 1px;
+    padding-left: 4px;
+}
+
+.table .not_found {
+    text-align: center;
+}
+
+.new_post {
+    margin-left: 3px;
+    display: inline-block;
+    background: #86EFAC;
+    width: 35px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    color: #333;
+    border-radius: 20px;
+}
+
+.comment_number {
+    display: inline-block;
+    background: #A39FDC;
+    width: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+    border-radius: 10px;
+}
+
+.comment_edit_btn a:nth-child(1) {
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.badge {
+    color: #333;
+}
+
+/* MOBILE BOARD */
+.mobile_board {
+    height: 740px;
+    margin-bottom: 200px;
+    display: none;
+}
+
+.mobile_board_bg {
+    position: absolute;
+    left: 0; right: 0;
+    /* height: 500px; */
+    /* height: 675px; */
+    /* background: #2C353C; */
+}
+
+.mobile_board_wrapper {
+    height: 100%;
+}
+
+.list_group_wrapper {
+    height: 84%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.list_group_wrapper_inner {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.list_group_wrapper_inner form {
+    position: relative;
+    display: flex;
+    gap: 5px;
+}
+
+.list_group_wrapper_inner form button {
+    background: rgba(0, 0, 0, 0);
+}
+
+.list_group_wrapper_inner form button i {
+    color: black;
+    transform: translateX(-2px);
+}
+
+.list_group_wrapper_inner h3 {
+    margin: 30px 0 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list-group {
+    border-radius: 0;
+}
+
+.list-group li {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color: #333;
+}
+.list-group li:nth-child(2) {
+    border-bottom: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);;
+}
+
+
+.list-group .comment_number {
+    display: inline-block;
+    background: #A39FDC;
+    width: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+    border-radius: 10px;
+}
+
+.list-group .badge {
+    color: #333;
+    line-height: 20px;
+}
+
+.list_group_item_info {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.list_group_item_info li {
+    color: #a4a4a4;
+}
+
+
+.mobile_board_btn {
+    display: inline-block;
+    width: 125px;
+    height: 30px;
+    background: #2C353C;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.mobile_board_btn:hover {
+    background: #0C4DA2;
+    transition: .3s;
+}
+
+.mobile_board_btn a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.mobile_board_btn i {
+    margin-left: 12px;
+}
+
+/* READ */
+.read_title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.read_write_info li:nth-child(1):after,
+.read_write_info li:nth-child(2):after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 17px;
+    background: #A9A9A9;
+    transform: translateY(3px);
+    margin-left: 5px;
+}
+
+.read_write_info ul {
+    margin: 30px 0px;
+}
+
+.read_write_info ul li {
+    display: inline-block;
+    color: #A9A9A9;
+    margin-right: 5px;
+}
+
+.read_contents {
+    border-top: 1px solid #A9A9A9;
+    border-bottom: 1px solid #A9A9A9;
+    height: 450px;
+    padding: 20px 0;
+}
+
+.read_preview_next a {
+    display: block;
+}
+
+.read_preview_next a:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+
+.read_preview_next i {
+    margin-right: 5px;
+}
+
+.read_preview_next span {
+    margin-left: 12px;
+    font-weight: bold;
+}
+.read_preview_next a {
+    height: auto;
+}
+
+/* COMMENT */
+.comment {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.comment li {
+    margin-bottom: 20px;
+}
+
+.comment .comment_writer {
+    font-weight: bold;
+}
+
+
+.comment .comment_date {
+    border-bottom: 1px solid #a9a9a9;
+    font-size: 14px;
+    color: #a4a4a4;
+    padding-bottom: 5px;
+}
+
+.read_comment .comment_date a {
+    display: inline-block;
+    width: auto;
+    font-size: 16px;
+    color: #333;
+}
+
+
+.read_bottom {
+    margin-top: 40px;
+}
+
+.read_comment .commenting {
+    border: 1px solid #a9a9a9;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.read_comment textarea {
+    height: 8vh;
+    border: none;
+    resize: none;
+    outline: 0;
+    margin: 5px 0;
+}
+
+.read_comment .read_comment_wrapper {
+    margin: 15px 15px;
+}
+
+.read_comment .read_comment_wrapper .writer {
+    margin-left: 6px;
+}
+
+.read_comment .read_comment_wrapper .writer span {
+    font-weight: bold;
+}
+
+.read_comment .enroll {
+    text-align: end;
+}
+
+.read_comment .text_button button {
+    border: none;
+    background: #fff;
+    text-align: end;
+}
+
+.comment_edit_area {
+    border-bottom: 1px solid #a9a9a9;
+    margin-top: 30px;
+}
+
+.comment_edit_area .comment_edit_writer {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.comment_edit_info ul li:nth-child(1) {
+    font-size: 14px;
+    color: #a4a4a4;
+    padding-bottom: 5px;
+    transform: translateY(-1px);
+}
+
+.comment_edit_area_wrapper textarea {
+    width: 100%;
+    height: 17px;
+    margin: 18px 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.comment_edit_info button {
+    border: none;
+    background: #fff;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.comment_edit_area strong {
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a4a4;
+}
+
+/* WRITE */
+.table_search .write_category_title {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.table_search .write_category_title input {
+    width: 100%;
+}
+
+.table_search .write_content {
+    width: 100%;
+    height: 480px;
+    outline: 0;
+    border: 1px solid #A9A9A9;
+    border-radius: 5px;
+    resize: none;
+}
+
+.table_search .write_file {
+    border: none;
+}
+
+.table_search .field_write_file {
+    margin: 20px 0px;
+}
+
+.board_edit_btns .write_submit {
+    border: none;
+    background: #fff;
+    color: #333333;
+    font-weight: 500;
+    transform: translateY(-2px);
+}
+
+.field_write_file+.board_edit_btns ul {
+    padding-right: 0;
+    gap: 2px;
+}
+
+/* SUUMERNOTE */
+.note-statusbar {
+    display: none;
+}
+
+/* 반응형(BOARD) */
+@media (max-width: 1020px) {
+    .table_wrapper table .col6,
+    .table_wrapper table .col7 {
+        display: none;
+    }
+    tr th:nth-child(6),
+    tr th:nth-child(7),
+    tr td:nth-child(6),
+    tr td:nth-child(7) {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .table_wrapper table .col4,
+    .table_wrapper table .col5 {
+        display: none;
+    }
+
+    tr td:nth-child(3) {
+        white-space: nowrap;
+    }
+
+    tr th:nth-child(4),
+    tr th:nth-child(5),    
+    tr td:nth-child(4),
+    tr td:nth-child(5) {
+        display: none;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .mobile_list_group_wrapper {
+        width: 100%;
+    }
+
+    .table_search input {
+        width: 200px;
+    }
+
+    .mobile_board_wrapper {
+      padding-left: 10px;
+    }
+    .mobile_board_bg {
+      border-radius: 0px 110px 0px 0px;
+    }
+
+    .board_contents_wrapper {
+        display: none;
+    }
+
+    .mobile_board {
+        display: block !important;
+    }
+}
+
+@media (max-width: 440px) {
+    /* BOARD MOBILE */
+    .mobile_board .table_search select {
+         width: 90px;
+    }
+
+    /* READ MOBILE */
+    .read_title {
+        font-size: 35px;
+    }
+
+    .read_write_info ul {
+        margin: 25px 0px;
+        font-size: 14px;
+    }
+
+    .read_write_info li:nth-child(1):after, .read_write_info li:nth-child(2):after {
+        height: 15px;
+    }
+
+    .read_contents {
+        height: 420px;
+    }
+    
+    .read_preview_next {
+        margin: 25px 0;
+        font-size: 14px;
+    }
+
+    .board_edit_btns ul {
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    /* WRITE */
+    .board_edit_btns ul li {
+        margin: 20px 5px 20px;
+    }
+} 

@@ -1,0 +1,324 @@
+/* LOGIN */
+.log_in {
+  height: 100%;
+  background: #2C353C;
+}
+  
+.log_in form {
+  width: 500px;
+  height: 475px;
+}
+
+.log_in h2 a {
+  display: inline-block;
+  width: 224px;
+  height: 56px;
+  background: url(../images/logo_width.svg) no-repeat;
+  text-indent: -999em;
+}
+
+.log_in .form_container {
+  width: 600px;
+  height: 480px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.log_in .CLASS_ESC_logo {
+  margin-bottom: 55px;
+}
+
+.log_in .btn {
+  background: #2D363D;
+  border: 1px solid #2D363D;
+  margin: 20px 0;
+}
+
+.log_in .btn:hover {
+  background: rgba(45, 54, 61, 100%);
+  border: 1px solid #2D363D;
+}
+
+.log_in .form-floating,
+.log_in button {
+  height: 50px;
+}
+
+.log_in .form-floating {
+  margin-top: 10px;
+}
+
+.log_in .form-floating label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.log_in .CLASS_ESC_logo {
+  text-align: center;
+}
+
+.log_in .form-control {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+.log_in .form-control:focus {
+  outline: 6px solid #2D363D;
+  border: none;
+  transition: outline .1s;
+}
+
+.log_in .id_pw_memeber {
+  margin: 5px 0;
+}
+
+.log_in .id_pw_memeber ul,
+.log_in .id_pw_memeber a {
+  color: #a4a4a4;
+  font-size: 14px; 
+}
+
+.log_in .id_pw_memeber a:hover {
+  color: #2D363D;
+  font-weight: bold;
+}
+
+
+/* JOIN */
+.join {
+  height: 100vh;
+  background: #2C353C;
+  padding: 60.5px 0;
+}
+
+.join form {
+  width: 500px;
+  height: 475px;
+}
+
+.join h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.join .form_container {
+  width: 600px;
+  padding: 50px 0;
+  background: #ffffff;
+  border-radius: 20px;
+  height: 700px;
+}
+
+
+.join .CLASS_ESC_logo {
+  margin-bottom: 55px;
+}
+
+.join .btn {
+  background: #2D363D;
+  border: 1px solid #2D363D;
+  margin: 40px 0;
+  line-height: 36px;
+}
+
+.join .btn:hover {
+  background: rgba(45, 54, 61, 100%);
+  border: 1px solid #2D363D;
+}
+
+.join .form-floating,
+.join button {
+  height: 50px;
+}
+
+.join .form-floating {
+  margin-top: 10px;
+}
+
+.join .form-floating label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+
+.join .CLASS_ESC_logo {
+  text-align: center;
+}
+
+.join .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 0px;
+  box-shadow: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+
+.join .id_pw_memeber {
+  margin: 5px 0;
+}
+
+.join .id_pw_memeber ul {
+  color: #a4a4a4;
+  font-size: 14px;
+}
+
+.box {
+  height: 1000px;
+}
+  
+/* MEMBER INFO EDIT */
+.join.member_info_edit .form_container {
+  /* height: 850px; */
+  height: auto;
+}
+
+.join.member_info_edit {
+  height: auto;
+}
+
+.join.member_info_edit form {
+  height: auto;
+}
+
+.join.member_info_edit form .edit {
+  margin: 40px 0 15px;
+}
+
+.join.member_info_edit form .withdraw_btn {
+  margin: 0;
+  background: #E72B20;
+  border: 1px solid #E72B20;
+  color: #fff;
+  width: 100%;
+}
+
+.form_withdraw h2 {
+  text-align: center;
+  margin: 90px 0 55px;
+}
+
+.form_withdraw_wrapper {
+  margin-bottom: 30px;
+}
+
+.form_withdraw_wrapper .confirm_text {
+  font-size: 18px;
+  font-weight: bold;
+}
+.form_withdraw_wrapper .confirm_text span {
+  color: red;
+}
+
+.form_withdraw_wrapper .confirm_text_typing {
+  padding-left: 0;
+}
+
+.withdraw_btn.confirm.disabled {
+  opacity: 20%;
+  pointer-events: none;
+  cursor: default;
+  transition: opacity 1s;
+}
+.withdraw_btn.confirm.confirm_opacity {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+#join_form .withdraw_btn {
+  line-height: 36px;
+}
+
+/* 반응형(LOGIN) */
+@media (max-width:660px) {
+  .log_in .form_container {
+      width: 550px;
+  }
+
+  .log_in form {
+      width: 450px;
+  }
+}
+
+@media (max-width:610px) {
+  .log_in .form_container {
+      width: 500px;
+  }
+
+  .log_in form {
+      width: 400px;
+  }
+}
+
+@media (max-width:560px) {
+  .log_in .form_container {
+      width: 455px;
+  }
+
+  .log_in form {
+      width: 400px;
+  }
+}
+
+/* 모바일 사이즈 */
+@media (max-width:490px) {
+  .log_in .form_container {
+      width: 340px;
+      height: 470px;
+  }
+
+  .log_in form {
+      width: 290px;
+  }
+}
+
+/* 반응형(JOIN) */
+@media (max-width:660px) {
+  .join .form_container {
+      width: 550px;
+  }
+
+  .join form {
+      width: 450px;
+  }
+}
+
+@media (max-width:610px) {
+  .join .form_container {
+      width: 500px;
+  }
+
+  .join form {
+      width: 400px;
+  }
+}
+
+@media (max-width:560px) {
+  .join .form_container {
+      width: 455px;
+  }
+
+  .join form {
+      width: 400px;
+  }
+}
+
+/* 모바일 사이즈 */
+@media (max-width:490px) {
+  .join .form_container {
+      width: 340px;
+  }
+
+  .join form {
+      width: 290px;
+  }
+}
+
+/* logi, join 페이지에서 header 제거 */
+header {
+    display: none !important;
+}
