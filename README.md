@@ -18,8 +18,9 @@
 
 ## 프로젝트 소개
 - 온라인 강의 사이트 유저 페이지
-- Landing Page, 게시판, 로그인, 회원가입, 회원정보 수정 및 탈퇴까지 구현된 사이트(About, Lecture 페이지는 추후 구현할 계획)
-- [CLASS ESC 소개서](https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf) &nbsp; &nbsp; [CLASS ESC 사이트](http://myst.dothome.co.kr/esc4/index.php)
+- Landing Page, 게시판, 로그인, 회원가입, 회원정보 수정 및 탈퇴까지 구현된 사이트(About, Lecture 페이지는 추후 구현 예정)
+- [CLASS ESC 사이트](http://myst.dothome.co.kr/esc4/index.php) <br>
+  [CLASS ESC 소개서](https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
 
 <br>
 
