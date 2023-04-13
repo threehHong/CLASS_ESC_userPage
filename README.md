@@ -1,4 +1,3 @@
-<!-- 
 <br>
 <br>
 <div align="center">
@@ -11,7 +10,7 @@
     <p> Easy Speed Comportable </p>
     <p> 쉽고 빠르고 편하게 모두를 위한 교육 플랫폼  </p>
 </div>
--->
+
 
 <br>
 
