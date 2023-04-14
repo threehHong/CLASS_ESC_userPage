@@ -253,34 +253,36 @@ topBtn.click(function(e) {
 
 
 /********** LINE DRAWING **********/
-let mobileScreenSize = 414;
+let lineNum = 6;
+for(i = 1; i <= lineNum; i++){
+    let line = $(`.line${i}`),
+        path = $(`.path${i}`)[0], 
+        pathLength = path.getTotalLength();
+    
+    $(path).css('stroke-dasharray', pathLength + ' ' + pathLength);
+    $(path).css('stroke-dashoffset', calcDashoffset($(window).height() * 0.5, line, pathLength));
+    
+    function calcDashoffset(scrollY, element, length) {
+    let ratio = (scrollY - $(element).offset().top) / $(element).height(),
+        value = length - (length * ratio);
+    return value < 0 ? 0 : value > length ? length : value;
+    }
+    
+    function scrollHandler() {
+    let scrollY = $(window).scrollTop() + ($(window).height() * 0.5);
+    $(path).css('stroke-dashoffset', calcDashoffset(scrollY, line, pathLength));
+    }
+
+    $(window).on('scroll', scrollHandler);
+} 
+
+
+/* let mobileScreenSize = 414;
 
 $(window).resize(function() {
     if($(window).innerWidth() > mobileScreenSize) {
-        let lineNum = 6;
-        for(i = 1; i <= lineNum; i++){
-            let line = $(`.line${i}`),
-                path = $(`.path${i}`)[0], 
-                pathLength = path.getTotalLength();
-            
-            $(path).css('stroke-dasharray', pathLength + ' ' + pathLength);
-            $(path).css('stroke-dashoffset', calcDashoffset($(window).height() * 0.5, line, pathLength));
-            
-            function calcDashoffset(scrollY, element, length) {
-            let ratio = (scrollY - $(element).offset().top) / $(element).height(),
-                value = length - (length * ratio);
-            return value < 0 ? 0 : value > length ? length : value;
-            }
-            
-            function scrollHandler() {
-            let scrollY = $(window).scrollTop() + ($(window).height() * 0.5);
-            $(path).css('stroke-dashoffset', calcDashoffset(scrollY, line, pathLength));
-            }
-        
-            $(window).on('scroll', scrollHandler);
-        } 
     }
-})
+}) */
 
 /* let lineNum = 6;
 for (i = 1; i <= lineNum; i++) {
