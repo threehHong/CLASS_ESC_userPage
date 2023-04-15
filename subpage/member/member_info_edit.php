@@ -24,19 +24,6 @@
                         </h2>
                     </div>
 
-
-                    <!-- <div class="form-floating">
-                        <input type="text" class="form-control user_id" name="user_id" id="floatingInput" value="<?php echo $row['user_id'] ?>">
-                        <label for="floatingInput"> 아이디 </label>
-                        <span class="user_id_check user_check"> </span> 
-                    </div> -->
-
-                    <!-- <div class="form-floating">
-                        <input type="tel" class="form-control user_phone_number" name="user_phone_number" value="<?php echo $row['user_join_date'] ?>">
-                        <label for="floatingPassword"> 가입 날짜 </label>
-                        <span class="user_phone_check user_check"> </span>
-                    </div> -->
-
                         
                     <div class="form_wrapper d-flex flex-column gap-3"> 
                         <div class="form-floating">
