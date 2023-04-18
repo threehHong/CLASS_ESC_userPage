@@ -338,3 +338,48 @@ function iconBannerAni() {
 
 iconBannerAni();
 /********** ICON BANNER SLIDE **********/
+
+
+/********** POP UP **********/
+let popupModal = document.querySelector('dialog'),
+    popupClose = popupModal.querySelector('.popup_close'),
+    dayCheck = document.querySelector('#daycheck');
+
+/* if(document.cookie.search('cgvpf') > -1) {
+    popupModal.setAttribute('open','');
+} */
+
+function setCookie(name,value,day){
+    let date = new Date();
+    date.setDate(date.getDate()+day);
+    document.cookie = `${name}=${value};expires=${date.toUTCString()}`;
+}
+
+function checkCookie(name){
+    let cookieArr = document.cookie.split(';');
+
+    let visited = false;
+
+    for(let cookie of cookieArr){
+        if(cookie.search(name) > -1){
+            visited = true;
+            break;
+        }
+    }
+console.log(visited);
+    if(visited == false){
+        popupModal.setAttribute('open','');
+    }
+}
+
+checkCookie('ESC_userPage');
+
+popupClose.addEventListener('click',()=>{
+    if(dayCheck.checked){
+        setCookie('ESC_userPage','home',1);
+    }else{
+        setCookie('ESC_userPage','home',-1);
+    }
+    popupModal.removeAttribute('open');
+});
+/********** POP UP **********/

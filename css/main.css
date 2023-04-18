@@ -437,3 +437,94 @@ div[class^='line'] {
 .preview_board_btn i {
     margin-left: 12px;
 }
+
+
+
+/* POP UP */
+dialog{
+    /* position: fixed; */
+    top: 15px;
+    left: 45px;
+    width: 500px;
+    /* height: 850px; */
+    z-index: 20;
+    border: 5px solid #4173A0;
+    border-radius: 20px;
+    background: #fff;
+    margin: 0;
+    padding-bottom: 35px;
+    padding-top: 5px;
+}
+
+dialog p {
+    margin: 0;
+}
+
+dialog strong {
+    font-weight: 700;
+}
+.popup_content{
+    margin: 15px;
+}
+.popup_content h5{
+    line-height: 2;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700 !important;
+    text-align: center;
+}
+.popup_content p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.popup_content form {
+    font-size: 14px;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.popup_content .popup_proposal {
+    color: #EF642F;
+    font-weight: 700;
+}
+
+
+.popup_close {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #4173A0;
+    text-align: center;
+    padding: 10px 0;
+}
+.popup_close p {
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+
+.github_seconde {
+    opacity: 0;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #4173A0;
+    margin: 20px auto;
+}
+
+.explanation p {
+    line-height: 20px !important;
+    margin-bottom: 5px;
+}
+
+.project_link p {
+    margin-bottom: 10px;
+}
+
+.test {
+    height: 5000px;
+}
+/* POP UP */

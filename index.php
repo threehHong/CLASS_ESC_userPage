@@ -9,6 +9,67 @@
     include $_SERVER['DOCUMENT_ROOT'] . "/esc4/subpage/common/header_bottom.php";
 ?>
 
+<!-- POP UP -->
+<dialog>
+    <div class="popup_content">
+        <div class="project_information">
+            <h5> LMS 유저 페이지 제작 프로젝트 </h5>
+            
+            <p> <strong> 제작자 </strong> : 홍효헌(개인 프로젝트) </p>
+            <p> <strong> 제작기간 </strong> : 23.03.20~23.04.13(총 제작기간) </p>
+            <p> <strong> 아이디 </strong> : admin  </p>
+            <p> <strong> 비밀번호 </strong> : admin1213 </p>
+
+            <br>
+
+            <p> <strong> 구현 내용 </strong> </p>
+            <div class="explanation">
+                <p> 
+                    랜딩 페이지, 게시판, 로그인, 회원가입, 회원정보, 회원정보 수정, 회원탈퇴
+                </p>
+            </div>
+
+            <p> <strong> 주요 기능 </strong> </p>
+            <div class="explanation">
+                <p> 게시글 읽기, 게시글 쓰기, 게시글 수정, 게시글 검색, 게시글 삭제, 페이지네이션 </p>
+                <!-- <p> 게시글 쓰기 </p> -->
+                <!-- <p> 게시글 수정 </p> -->
+                <!-- <p> 게시글 검색 </p> -->
+                <!-- <p> 게시글 삭제 </p> -->
+                <!-- <p> 페이지네이션 </p> -->
+                <p> 회원제 게시판(회원만 글 쓰기 가능) </p>
+                <p> 로그인, 회원가입, 회원정보, 회원 정보 수정, 회원 탈퇴 </p>
+            </div>
+            <p> <strong> 주요 특징 </strong> </p>
+            <p> 반응형 웹사이트 </p>
+            <p> 회원제 게시판(회원만 글 쓰기 가능) </p>
+            <p> 회원가입시 정규식을 활용한 유효성 검사 </p>
+            <p> ajax를 활용한 아이디 중복검사 </p>
+        </div>
+
+        <div class="line"> </div>
+        
+        <div class="project_link">
+            <p> <!-- <strong> Github </strong> :  --> <a href="https://github.com/threehHong/CLASS_ESC_userPage" target="_blank" class="popup_proposal"> CLASS ESC userPage GitHub 바로가기 </a> </p>
+                                            
+            <p> <!-- <strong> 소개서 </strong> :  --> <a href="https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf" target="_blank" class="popup_proposal"> CLASS ESC userPage 소개서 보기 </a> </p>
+            
+            <!-- <p> <strong> 디자인 </strong> : <a href="https://www.figma.com/file/Wy8zF0if9P3aq6GH6qZFn2/Portfolio-%EB%94%94%EC%9E%90%EC%9D%B8?node-id=7%3A1120&t=DLpuJiIefBqKRzk1-1" target="_blank" class="popup_proposal"> CLASS ESC 디자인 보기 </a> </p> -->
+        </div>
+
+        <form action="">
+            <label for="daycheck"> 오늘 하루 보지 않기 </label>
+            <input type="checkbox" id="daycheck">                    
+        </form>
+
+    </div>
+    <div class="popup_close">
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+        <p> 닫기</p> 
+    </div>  
+</dialog>
+<!-- POP UP -->
+
 <main>  
     <div class="main_wrapper container">
         <!-- SECTION SLIDE -->
