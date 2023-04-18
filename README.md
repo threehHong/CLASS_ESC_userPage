@@ -19,7 +19,7 @@
 ## 프로젝트 소개
 - LMS 온라인 강의 사이트 유저 페이지 제작 프로젝트 - 개인 프로젝트
 - Landing Page, 로그인, 회원가입, 게시판, 회원정보 수정 및 탈퇴까지 구현된 사이트
-- 현재로서는 커뮤니티 형태로 작동하는 사이트이고 추후 About, Lecture 페이지 제작 및 추가 예정
+- 현재로서는 커뮤니티 형태로 작동, 추후 About, Lecture 페이지 제작 및 추가 예정
 - [🌎CLASS ESC 사이트](http://myst.dothome.co.kr/esc4/index.php) <br>
   [📃CLASS ESC 소개서](https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
 
