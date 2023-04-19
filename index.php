@@ -52,7 +52,7 @@
         <div class="project_link">
             <p> <!-- <strong> Github </strong> :  --> <a href="https://github.com/threehHong/CLASS_ESC_userPage" target="_blank" class="popup_proposal"> CLASS ESC userPage GitHub 바로가기 </a> </p>
                                             
-            <p> <!-- <strong> 소개서 </strong> :  --> <a href="https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf" target="_blank" class="popup_proposal"> CLASS ESC userPage 소개서 보기 </a> </p>
+            <p> <!-- <strong> 소개서 </strong> :  --> <a href="https://drive.google.com/file/d/1mp99E2JWwwNSro4y5pX0DxPwebs_o2r9/view?usp=sharing" target="_blank" class="popup_proposal"> CLASS ESC userPage 소개서 보기 </a> </p>
             
             <!-- <p> <strong> 디자인 </strong> : <a href="https://www.figma.com/file/Wy8zF0if9P3aq6GH6qZFn2/Portfolio-%EB%94%94%EC%9E%90%EC%9D%B8?node-id=7%3A1120&t=DLpuJiIefBqKRzk1-1" target="_blank" class="popup_proposal"> CLASS ESC 디자인 보기 </a> </p> -->
         </div>
