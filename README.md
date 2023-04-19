@@ -75,6 +75,29 @@
 
 <br>
 
+## 특징
+#### ajax를 활용한 아이디 중복검사
+<p align="center">
+  <img src="images/readme/esc_user_join01.png" width="400 alt="escUserImage01"/> &nbsp;
+  <img src="images/readme/esc_user_join02.png" width="400 alt="escUserinImage02"/>
+</p>
+
+
+
+#### 회원 가입시 정규식을 활용한 유효성 검사
+<p align="center">
+  <img src="images/esc_admin_category01.png" width="400 alt="escAdminImage03"/> &nbsp;
+  <img src="images/esc_admin_category02.png" width="400 alt="escAdminImage04"/>
+</p>
+
+#### 반응형 웹사이트
+<p align="center">
+  <img src="images/esc_admin_category01.png" width="400 alt="escAdminImage03"/> &nbsp;
+  <img src="images/esc_admin_category02.png" width="400 alt="escAdminImage04"/>
+</p>
+
+<br>
+
 ## 사용 언어, 라이브러리, 툴
 - html, css, js, jquery, ajax, php
 - bootstrap, isotope, summernote
