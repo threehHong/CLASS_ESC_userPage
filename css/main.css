@@ -442,8 +442,8 @@ div[class^='line'] {
 
 /* POP UP */
 dialog{
-    /* position: fixed; */
-    top: 15px;
+    position: fixed;
+    top: 45px;
     left: 45px;
     width: 500px;
     /* height: 850px; */
@@ -454,6 +454,18 @@ dialog{
     margin: 0;
     padding-bottom: 35px;
     padding-top: 5px;
+
+    opacity: 0;
+    animation: opacity 2s 2s forwards;
+}
+
+@keyframes opacity {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 100;
+  }
 }
 
 dialog p {
