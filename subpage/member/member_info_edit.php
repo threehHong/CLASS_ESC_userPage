@@ -131,70 +131,63 @@
                 phoneNumber = $('.user_phone_number');
 
             /* 비밀번호와 비밀번호 확인 일치여부(실시간) */
-            pwCheck.keyup(function() {
+            pwCheck.blur(function() {
                 let userPw = pw.val(),
                     userPwCheck = pwCheck.val();
 
-                setTimeout(() => {
-                    if(userPw == "") { 
-                        $('.user_pw_span').css("color", "red").html('필수 입력 사항 입니다');
-                    } else if (!(userPw.length >= 6)){
-                        $('.user_pw_span').css("color", "red").html('6자 이상 입력하세요');
-                    } else {
-                        $('.user_pw_span').css("color", "blue").html('사용가능');
-                    }
+                if(userPw == "") { 
+                    $('.user_pw_span').css("color", "red").html('필수 입력 사항 입니다');
+                } else if (!(userPw.length >= 6)){
+                    $('.user_pw_span').css("color", "red").html('6자 이상 입력하세요');
+                } else {
+                    $('.user_pw_span').css("color", "blue").html('사용가능');
+                }
 
-                    if(userPw != userPwCheck) {
-                        $('.user_pw_check_span').css("color", "red").html('비밀번호 불일치');
-                    } else {
-                        $('.user_pw_check_span').css("color", "blue").html('비밀번호 일치');
-                    }
-                }, 600);
+                if(userPw != userPwCheck) {
+                    $('.user_pw_check_span').css("color", "red").html('비밀번호 불일치');
+                } else {
+                    $('.user_pw_check_span').css("color", "blue").html('비밀번호 일치');
+                }
             }) /* 비밀번호와 비밀번호 확인 일치여부(실시간) */
 
 
             /* 이름 유효성 검사(실시간) */
-            name.keyup(function() {
+            name.blur(function() {
                 let nameFormat = /^[a-zA-Z가-힣]+$/;
-                setTimeout(() => {
-                    if(name.val() == "") {
-                        $('.user_name_check').css("color", "red").html('필수 입력 사항 입니다');
-                    } else if (!(nameFormat.test(name.val()))) {
-                        $('.user_name_check').css("color", "red").html('한글 또는 알파벳만 입력하세요');
-                    } else {
-                        $('.user_name_check').css("color", "blue").html('사용가능');
-                    }
-                }, 600);
 
+                if(name.val() == "") {
+                    $('.user_name_check').css("color", "red").html('필수 입력 사항 입니다');
+                } else if (!(nameFormat.test(name.val()))) {
+                    $('.user_name_check').css("color", "red").html('한글 또는 알파벳만 입력하세요');
+                } else {
+                    $('.user_name_check').css("color", "blue").html('사용가능');
+                }
             }) /* 이름 유효성 검사(실시간) */
                    
 
             /* 이메일 유효성 검사(실시간) */
-            mail.keyup(function() {
+            mail.blur(function() {
                 let mailFormat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-                setTimeout(() => {
-                    if(mail.val() == "") {
-                        $('.user_mail_check').css("color", "red").html('필수 입력 사항 입니다');
-                    } else if (!(mailFormat.test(mail.val()))) {
-                        $('.user_mail_check').css("color", "red").html('이메일 형식으로 입력하세요');
-                    } else {
-                        $('.user_mail_check').css("color", "blue").html('사용 가능');
-                    }
-                }, 600);
+
+                if(mail.val() == "") {
+                    $('.user_mail_check').css("color", "red").html('필수 입력 사항 입니다');
+                } else if (!(mailFormat.test(mail.val()))) {
+                    $('.user_mail_check').css("color", "red").html('이메일 형식으로 입력하세요');
+                } else {
+                    $('.user_mail_check').css("color", "blue").html('사용 가능');
+                }
             }) /* 이메일 유효성 검사(실시간) */
 
             /* 전화번호 유효성 검사(실시간) */
-            phoneNumber.keyup(function() {
-                setTimeout(() => {
-                    if(phoneNumber.val() == "") {
-                        $('.user_phone_check').css("color", "red").html('필수 입력 사항 입니다');
-                    } else if(isNaN(phoneNumber.val())){
-                        $('.user_phone_check').css("color", "red").html('숫자만 입력하세요');
-                    } else {
-                        $('.user_phone_check').css("color", "blue").html('사용가능');
-                        check = $('.user_phone_check').text();
-                    }
-                }, 600);
+            phoneNumber.blur(function() {
+                if(phoneNumber.val() == "") {
+                    $('.user_phone_check').css("color", "red").html('필수 입력 사항 입니다');
+                } else if(isNaN(phoneNumber.val())){
+                    $('.user_phone_check').css("color", "red").html('숫자만 입력하세요');
+                } else {
+                    $('.user_phone_check').css("color", "blue").html('사용가능');
+                    check = $('.user_phone_check').text();
+                }
             }) /* 전화번호 유효성 검사(실시간) */
 
 
@@ -307,6 +300,5 @@
             }) /* 회원가입 유효성 검사(제출후) */
 
         </script>
-
     </body>
 </html>
