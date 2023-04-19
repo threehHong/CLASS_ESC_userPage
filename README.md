@@ -83,7 +83,8 @@
 <br>
 
 ## 특징
-#### ajax를 활용한 아이디 중복검사
+#### 아이디 중복 검사 
+- ajax를 활용한 아이디 중복검사
 <p align="center">
   <img src="images/readme/esc_user_join01.png" width="400" alt="escUserImage01"/> &nbsp;
   <img src="images/readme/esc_user_join02.png" width="400" alt="escUserinImage02"/>
@@ -91,7 +92,8 @@
 
 <br>
 
-#### 회원 가입시 정규식을 활용한 유효성 검사
+#### 유효성 검사 
+- 회원 가입시 정규식을 활용한 유효성 검사
 <p align="center">
   <img src="images/readme/esc_user_join03.png" width="400" alt="escUserinImage03"/> &nbsp;
   <img src="images/readme/esc_user_join04.png" width="400" alt="escUserinImage04"/>
@@ -99,7 +101,8 @@
 
 <br>
 
-#### 반응형 웹사이트
+#### 반응형 웹사이트 
+- 게시판 반응형 예시
 <p align="center">
   <img src="images/readme/esc_user_board01.png" width="400" height="400px"  alt="escUserinImage05"/> &nbsp;
   <img src="images/readme/esc_user_board02.png" width="400" height="400px" alt="escUserinImage06"/>
