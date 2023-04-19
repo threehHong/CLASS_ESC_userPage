@@ -14,6 +14,13 @@
 
 <br>
 
+## 목차
+- [프로젝트 소개](#프로젝트-소개)
+- [제작 정보](#제작-정보)
+- [주요 기능](#주요-기능)
+- [특징](#특징)
+- [사용 언어, 라이브러리, 툴](#사용-언어-라이브러리-툴)
+
 <br>
 
 ## 프로젝트 소개
@@ -21,7 +28,9 @@
 - Landing Page, 로그인, 회원가입, 게시판, 회원정보 수정 및 탈퇴까지 구현된 사이트
 - 현재로서는 커뮤니티 형태로 작동, 추후 About, Lecture 페이지 제작 및 추가 예정
 - [🌎CLASS ESC 사이트](http://myst.dothome.co.kr/esc4/index.php) <br>
-  [📃CLASS ESC 소개서](https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf)
+  [📃CLASS ESC 소개서](https://drive.google.com/file/d/1mp99E2JWwwNSro4y5pX0DxPwebs_o2r9/view?usp=sharing)
+  
+  <!-- [📃CLASS ESC 소개서](https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf) -->
 
 <br>
 
@@ -41,7 +50,7 @@
 
 <br>
 
-## 구현한 기능
+## 주요 기능
 #### 게시판
 - 읽기(게시글 읽기)
 - 쓰기(게시글 쓰기, 댓글 쓰기)
@@ -76,21 +85,26 @@
 <br>
 
 ## 특징
-#### ajax를 활용한 아이디 중복검사
+#### 아이디 중복 검사 
+- ajax를 활용한 아이디 중복검사
 <p align="center">
   <img src="images/readme/esc_user_join01.png" width="400" alt="escUserImage01"/> &nbsp;
   <img src="images/readme/esc_user_join02.png" width="400" alt="escUserinImage02"/>
 </p>
 
+<br>
 
-
-#### 회원 가입시 정규식을 활용한 유효성 검사
+#### 유효성 검사 
+- 회원 가입시 정규식을 활용한 유효성 검사
 <p align="center">
   <img src="images/readme/esc_user_join03.png" width="400" alt="escUserinImage03"/> &nbsp;
   <img src="images/readme/esc_user_join04.png" width="400" alt="escUserinImage04"/>
 </p>
 
-#### 반응형 웹사이트
+<br>
+
+#### 반응형 웹사이트 
+- 게시판 반응형 예시
 <p align="center">
   <img src="images/readme/esc_user_board01.png" width="400" height="400px"  alt="escUserinImage05"/> &nbsp;
   <img src="images/readme/esc_user_board02.png" width="400" height="400px" alt="escUserinImage06"/>
