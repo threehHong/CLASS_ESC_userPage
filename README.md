@@ -86,14 +86,14 @@
 
 #### 회원 가입시 정규식을 활용한 유효성 검사
 <p align="center">
-  <img src="images/esc_admin_category01.png" width="400 alt="escAdminImage03"/> &nbsp;
-  <img src="images/esc_admin_category02.png" width="400 alt="escAdminImage04"/>
+  <img src="images/readme/esc_user_join03.png" width="400 alt="escUserinImage03"/>
+  <img src="images/readme/esc_user_join04.png" width="400 alt="escUserinImage04"/>
 </p>
 
 #### 반응형 웹사이트
 <p align="center">
-  <img src="images/esc_admin_category01.png" width="400 alt="escAdminImage03"/> &nbsp;
-  <img src="images/esc_admin_category02.png" width="400 alt="escAdminImage04"/>
+  <img src="images/readme/esc_user_board01.png" width="400 alt="escUserinImage05"/>
+  <img src="images/readme/esc_user_board02.png" width="400 alt="escUserinImage06"/>
 </p>
 
 <br>
