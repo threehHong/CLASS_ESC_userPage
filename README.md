@@ -28,8 +28,9 @@
 - Landing Page, 로그인, 회원가입, 게시판, 회원정보 수정 및 탈퇴까지 구현된 사이트
 - 현재로서는 커뮤니티 형태로 작동, 추후 About, Lecture 페이지 제작 및 추가 예정
 - [🌎CLASS ESC 사이트](http://myst.dothome.co.kr/esc4/index.php) <br>
+  [📃CLASS ESC 소개서](https://drive.google.com/file/d/1mp99E2JWwwNSro4y5pX0DxPwebs_o2r9/view?usp=sharing)
+  
   <!-- [📃CLASS ESC 소개서](https://github.com/threehHong/CLASS_ESC_userPage/blob/main/CLASS%20ESC%20%EC%86%8C%EA%B0%9C%EC%84%9C.pdf) -->
-  [📃CLASS ESC 소개서](https://drive.google.com/file/d/1mp99E2JWwwNSro4y5pX0DxPwebs_o2r9/view)
 
 <br>
 
