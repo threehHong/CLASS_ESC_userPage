@@ -78,22 +78,22 @@
 ## 특징
 #### ajax를 활용한 아이디 중복검사
 <p align="center">
-  <img src="images/readme/esc_user_join01.png" width="400 alt="escUserImage01"/> &nbsp;
-  <img src="images/readme/esc_user_join02.png" width="400 alt="escUserinImage02"/>
+  <img src="images/readme/esc_user_join01.png" width="400" alt="escUserImage01"/> &nbsp;
+  <img src="images/readme/esc_user_join02.png" width="400" alt="escUserinImage02"/>
 </p>
 
 
 
 #### 회원 가입시 정규식을 활용한 유효성 검사
 <p align="center">
-  <img src="images/readme/esc_user_join03.png" width="400 alt="escUserinImage03"/>
-  <img src="images/readme/esc_user_join04.png" width="400 alt="escUserinImage04"/>
+  <img src="images/readme/esc_user_join03.png" width="400" alt="escUserinImage03"/> &nbsp;
+  <img src="images/readme/esc_user_join04.png" width="400" alt="escUserinImage04"/>
 </p>
 
 #### 반응형 웹사이트
 <p align="center">
-  <img src="images/readme/esc_user_board01.png" width="400 alt="escUserinImage05"/>
-  <img src="images/readme/esc_user_board02.png" width="400 alt="escUserinImage06"/>
+  <img src="images/readme/esc_user_board01.png" width="400" height="400px"  alt="escUserinImage05"/> &nbsp;
+  <img src="images/readme/esc_user_board02.png" width="400" height="400px" alt="escUserinImage06"/>
 </p>
 
 <br>
