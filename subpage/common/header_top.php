@@ -20,6 +20,13 @@
 
 <html lang="en">
     <head>
+        <meta name="keywords" content="온라인 교육, 온라인 교육 플랫폼">
+        <meta name="keywords" content="esc, inflearn, udemy, fastcampus, udemy, 클래스101">
+        <meta name="keywords" content="kmooc, coursera, edx">
+        <meta name="description" content="쉽고 빠르고 편하게 모두를 위한 교육 플랫폼">
+        <meta name="robots" content="index, follow">
+        <meta name="robots" content="all"> 
+
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
