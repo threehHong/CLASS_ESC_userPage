@@ -32,7 +32,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!-- favicon -->
-        <link rel="shortcut icon" href="images/esc_favicon.svg" type="image/x-icon">
+        <link rel="shortcut icon" href="http://myst.dothome.co.kr/esc4/images/esc_favicon.svg" type="image/x-icon">
         
         <!-- 모바일에서 숫자 파란색 링크 표시 막는 메타 태그 -->
         <meta name="format-detection" content="telephone=no" />
