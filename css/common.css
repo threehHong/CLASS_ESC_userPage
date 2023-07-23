@@ -745,6 +745,11 @@ footer .bar {
   .new_post {
     line-height: 20px;
   }
+
+  /* POP UP */
+  dialog { 
+    display: none;
+  }
 }
 
 /* 반응형(JOIN) */
