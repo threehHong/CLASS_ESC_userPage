@@ -15,7 +15,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/esc4/subpage/common/header_bottom.php";
         <div class="project_information">
             <h5> LMS 유저 페이지 제작 프로젝트 </h5>
 
-            <p> <strong> 제작자 </strong> : 홍효헌(개인 프로젝트) </p>
+            <p> <strong> 제작자 </strong> : 개인 프로젝트 </p>
             <p> <strong> 제작기간 </strong> : 23.03.20~23.04.13(총 제작기간) </p>
             <p> <strong> 아이디 </strong> : admin </p>
             <p> <strong> 비밀번호 </strong> : admin1213 </p>
@@ -52,7 +52,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/esc4/subpage/common/header_bottom.php";
         <div class="project_link">
             <p> <a href="https://github.com/threehHong/CLASS_ESC_userPage" target="_blank" class="popup_proposal"> CLASS ESC userPage GitHub 바로가기 </a> </p>
 
-            <p> <a href="https://drive.google.com/file/d/1mp99E2JWwwNSro4y5pX0DxPwebs_o2r9/view?usp=sharing" target="_blank" class="popup_proposal"> CLASS ESC userPage 소개서 보기 </a> </p>
+            <p> <a href=""> CLASS ESC userPage 소개서 보기 </a> </p>
         </div>
 
         <form action="">
